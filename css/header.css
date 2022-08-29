@@ -97,32 +97,17 @@ span {
   font-weight: bold;}
 
 @media only screen and (min-width: 401px) and (max-width: 960px) {
- .header,
-  .menu,
-  .nome,
-  {height: 50%;
-
-
-
+.article1{
+  display: none;
 }
-
-    .menu {
+.image{
+  margin-top: 100px;
+}
+  .menu {
       flex-direction: column;
       margin-top: 5px;
     }
-.img-profile {
-  display:block;
-  margin-top: 80px;
-}
     .bottone {
       margin-top: 25px;
-    }
-  }
-
-  @media only screen and (max-width: 250px) {
-    .article1 {
-      display: none;
-    }
-
     }
   }
