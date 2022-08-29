@@ -1,0 +1,31 @@
+.footer{
+  border: 8px solid #054279;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  height: 150px;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+}
+.contact{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+
+}
+.fa{
+  margin-top: 20px;
+  margin-left: 25px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+footer a:hover{
+  color: white;
+}
