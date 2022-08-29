@@ -69,9 +69,3 @@ p{
         margin: 2px;
       }
   }
-
-@media only screen and (max-width: 250px) {
-  .article {
-    width: 50%;
-  }
-}
